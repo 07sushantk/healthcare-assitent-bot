@@ -246,8 +246,70 @@ Important:
 If you want a production deployment:
 
 1. Host the FastAPI backend separately
-2. Update the frontend API base URL if needed
+2. Set the frontend API base URL manually
 3. Persist the ChromaDB data directory
+
+### Manual URLs You Need To Add
+
+You need to manually set only one frontend URL variable:
+
+`VITE_API_BASE_URL`
+
+Set it to your deployed backend base URL, for example:
+
+```bash
+VITE_API_BASE_URL=https://your-backend.onrender.com
+```
+
+The frontend will call:
+
+```text
+https://your-backend.onrender.com/api/chat
+```
+
+Locally, if `VITE_API_BASE_URL` is not set, the app falls back to:
+
+```text
+/api/chat
+```
+
+which continues to work with the local `server.ts` proxy.
+
+### Where To Add The URL
+
+#### For local frontend testing
+
+Create a `.env.local` file in the project root:
+
+```bash
+VITE_API_BASE_URL=https://your-backend-url
+```
+
+#### For Vercel
+
+Add this environment variable in:
+
+- Project Settings
+- Environment Variables
+- Key: `VITE_API_BASE_URL`
+- Value: `https://your-backend-url`
+
+#### For Netlify
+
+Add this environment variable in:
+
+- Site configuration
+- Environment variables
+- Key: `VITE_API_BASE_URL`
+- Value: `https://your-backend-url`
+
+#### For GitHub Pages
+
+GitHub Pages does not run the backend. You would still need:
+
+- frontend hosted on GitHub Pages
+- backend hosted somewhere else
+- `VITE_API_BASE_URL` pointing to that hosted backend
 
 ## Project Structure
 
@@ -279,4 +341,3 @@ If you want a production deployment:
 - Add automated ingestion commands
 - Add tests for API and UI
 - Add authentication if you want managed user sessions later
-

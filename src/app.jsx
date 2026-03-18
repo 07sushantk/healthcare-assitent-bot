@@ -12,6 +12,9 @@ import {
   User,
 } from 'lucide-react';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL?.trim() || '';
+const CHAT_API_URL = API_BASE_URL ? `${API_BASE_URL.replace(/\/$/, '')}/api/chat` : '/api/chat';
+
 export default function App() {
   const [apiKey, setApiKey] = useState('');
   const [messages, setMessages] = useState([
@@ -61,7 +64,7 @@ export default function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/chat', {
+      const response = await fetch(CHAT_API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
