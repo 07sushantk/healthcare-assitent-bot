@@ -15,6 +15,7 @@ from telegram.ext import (
 )
 from PIL import Image
 from langdetect import detect, DetectorFactory, LangDetectException
+from pathlib import Path
 
 # Import RAG pipeline
 from rag import rag_pipeline
@@ -23,7 +24,7 @@ from embeddings import get_embedding
 DetectorFactory.seed = 0
 
 # --- Setup / env ---
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent / ".env")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 

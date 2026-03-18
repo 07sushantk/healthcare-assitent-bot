@@ -4,6 +4,10 @@ import uvicorn
 from rag import rag_pipeline
 from endee_client import EndeeClient
 from embeddings import get_query_embedding
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 app = FastAPI()
 endee = EndeeClient()

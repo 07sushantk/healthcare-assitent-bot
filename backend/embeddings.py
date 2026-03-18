@@ -2,8 +2,9 @@ import google.generativeai as genai
 import os
 from threading import Lock
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent / ".env")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_CALL_LOCK = Lock()
 

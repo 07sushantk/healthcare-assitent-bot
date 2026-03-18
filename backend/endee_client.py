@@ -1,13 +1,14 @@
+from pathlib import Path
+
 import chromadb
-from chromadb.config import Settings
-import os
 
 class EndeeClient:
-    def __init__(self, path="./endee_db"):
+    def __init__(self, path=None):
         """
         Initialize the Endee (ChromaDB) client.
         """
-        self.client = chromadb.PersistentClient(path=path)
+        db_path = Path(path) if path else Path(__file__).resolve().parent / "endee_db"
+        self.client = chromadb.PersistentClient(path=str(db_path))
         self.collection_name = "health_data"
         self.collection = self.client.get_or_create_collection(name=self.collection_name)
 

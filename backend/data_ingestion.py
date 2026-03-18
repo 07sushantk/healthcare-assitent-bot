@@ -3,8 +3,10 @@ import os
 from endee_client import EndeeClient
 from embeddings import get_embedding
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
 
 def ingest_data():
     """
@@ -14,7 +16,7 @@ def ingest_data():
     
     # Load Symptoms
     try:
-        with open('symptoms.json', 'r') as f:
+        with open(BASE_DIR / 'symptoms.json', 'r', encoding='utf-8') as f:
             symptoms_data = json.load(f)
     except FileNotFoundError:
         print("symptoms.json not found. Skipping.")
@@ -22,7 +24,7 @@ def ingest_data():
 
     # Load Medicines
     try:
-        with open('medicines.json', 'r') as f:
+        with open(BASE_DIR / 'medicines.json', 'r', encoding='utf-8') as f:
             medicines_data = json.load(f)
     except FileNotFoundError:
         print("medicines.json not found. Skipping.")

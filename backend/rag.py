@@ -5,8 +5,9 @@ from embeddings import get_query_embedding
 import google.generativeai as genai
 from dotenv import load_dotenv
 from PIL import Image
+from pathlib import Path
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent / ".env")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if GEMINI_API_KEY:

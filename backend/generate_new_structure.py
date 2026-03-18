@@ -2,8 +2,10 @@ import os
 import json
 import google.generativeai as genai
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-2.5-flash") # Use flash instead of flash-lite for better instruction following
@@ -35,7 +37,7 @@ try:
     symptoms_resp = model.generate_content(symptoms_prompt)
     symptoms_data = json.loads(clean_json(symptoms_resp.text))
     
-    with open('symptoms_new.json', 'w', encoding='utf-8') as f:
+    with open(BASE_DIR / 'symptoms_new.json', 'w', encoding='utf-8') as f:
         json.dump(symptoms_data, f, indent=2)
 
     print(f"Done! Saved {len(symptoms_data)} meticulously structured symptoms to symptoms_new.json.")

@@ -47,12 +47,14 @@ flowchart TD
 
 ### Frontend
 
-- File: [`src/app.jsx`](./src/app.jsx)
+- Folder: [`frontend/`](./frontend)
+- File: [`frontend/src/app.jsx`](./frontend/src/app.jsx)
 - Handles chat UI, API-key entry, request submission, and response rendering
 
 ### Backend
 
-- File: [`api.py`](./api.py)
+- Folder: [`backend/`](./backend)
+- File: [`backend/api.py`](./backend/api.py)
 - Exposes the `/rag` endpoint
 - Accepts:
   - `message`
@@ -60,32 +62,32 @@ flowchart TD
 
 ### RAG Pipeline
 
-- File: [`rag.py`](./rag.py)
+- File: [`backend/rag.py`](./backend/rag.py)
 - Builds the retrieval + generation flow
 
 ### Embeddings
 
-- File: [`embeddings.py`](./embeddings.py)
+- File: [`backend/embeddings.py`](./backend/embeddings.py)
 - Generates query/document embeddings through Gemini
 
 ### Vector Database
 
-- File: [`endee_client.py`](./endee_client.py)
+- File: [`backend/endee_client.py`](./backend/endee_client.py)
 - Wraps `ChromaDB PersistentClient`
 - Used here as the Endee vector search layer
 
 ### Data Ingestion
 
-- File: [`data_ingestion.py`](./data_ingestion.py)
+- File: [`backend/data_ingestion.py`](./backend/data_ingestion.py)
 - Reads symptom and medicine JSON files
 - Creates embeddings
 - Stores documents in Endee/ChromaDB
 
 ## Knowledge Base Files
 
-- [`symptoms.json`](./symptoms.json)
-- [`symptoms_new.json`](./symptoms_new.json)
-- [`medicines.json`](./medicines.json)
+- [`backend/symptoms.json`](./backend/symptoms.json)
+- [`backend/symptoms_new.json`](./backend/symptoms_new.json)
+- [`backend/medicines.json`](./backend/medicines.json)
 
 Note:
 
@@ -110,14 +112,15 @@ cd rag-healthcare-assistant-bot
 ### 2. Install frontend dependencies
 
 ```bash
+cd frontend
 npm install
 ```
 
 ### 3. Install backend dependencies
 
 ```bash
+cd ../backend
 pip install -r requirements.txt
-pip install fastapi uvicorn
 ```
 
 If `chromadb` fails to install on your machine, you may need:
@@ -127,9 +130,12 @@ If `chromadb` fails to install on your machine, you may need:
 
 ### 4. Configure environment variables
 
-Create a local `.env` file if needed for ingestion scripts or optional bot scripts.
+Create local `.env` files inside the `backend/` and `frontend/` folders.
 
-Example values are provided in [`.env.example`](./.env.example).
+Example values are provided in:
+
+- [`backend/.env.example`](./backend/.env.example)
+- [`frontend/.env.example`](./frontend/.env.example)
 
 Important:
 
@@ -141,14 +147,16 @@ Important:
 Run ingestion once to populate Endee/ChromaDB:
 
 ```bash
+cd backend
 python data_ingestion.py
 ```
 
-This creates or updates the local `endee_db/` directory.
+This creates or updates the local `backend/endee_db/` directory.
 
 ### 6. Start the backend
 
 ```bash
+cd backend
 python api.py
 ```
 
@@ -159,6 +167,7 @@ Backend runs on:
 ### 7. Start the frontend
 
 ```bash
+cd frontend
 npm run dev
 ```
 
@@ -213,15 +222,15 @@ Response shape:
 
 Before pushing to GitHub:
 
-1. Make sure `.env` is not committed
-2. Make sure `node_modules/` is not committed
+1. Make sure `backend/.env` and `frontend/.env.local` are not committed
+2. Make sure `frontend/node_modules/` is not committed
 3. Make sure no real API keys remain in tracked files
-4. Confirm `endee_db/` should or should not be versioned based on your preference
+4. Confirm `backend/endee_db/` should or should not be versioned based on your preference
 
 Recommended:
 
-- Keep `endee_db/` out of Git if you want a smaller repo
-- Rebuild the database locally or during deployment using `data_ingestion.py`
+- Keep `backend/endee_db/` out of Git if you want a smaller repo
+- Rebuild the database locally or during deployment using `python data_ingestion.py`
 
 ## Deployment Notes
 
@@ -279,7 +288,7 @@ which continues to work with the local `server.ts` proxy.
 
 #### For local frontend testing
 
-Create a `.env.local` file in the project root:
+Create a `frontend/.env.local` file:
 
 ```bash
 VITE_API_BASE_URL=https://your-backend-url
@@ -315,22 +324,31 @@ GitHub Pages does not run the backend. You would still need:
 
 ```text
 .
-├── api.py
-├── rag.py
-├── embeddings.py
-├── endee_client.py
-├── data_ingestion.py
-├── medicines.json
-├── symptoms.json
-├── symptoms_new.json
-├── endee_db/
-├── server.ts
-├── src/
-│   ├── app.jsx
-│   ├── main.tsx
-│   └── index.css
-├── requirements.txt
-├── package.json
+├── backend/
+│   ├── api.py
+│   ├── rag.py
+│   ├── embeddings.py
+│   ├── endee_client.py
+│   ├── data_ingestion.py
+│   ├── bot.py
+│   ├── generate_data.py
+│   ├── generate_new_structure.py
+│   ├── medicines.json
+│   ├── symptoms.json
+│   ├── symptoms_new.json
+│   ├── metadata.json
+│   └── requirements.txt
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── server.ts
+│   ├── tsconfig.json
+│   ├── vite.config.ts
+│   └── src/
+│       ├── app.jsx
+│       ├── main.tsx
+│       └── index.css
 └── README.md
 ```
 

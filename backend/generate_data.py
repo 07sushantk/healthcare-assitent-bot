@@ -2,8 +2,10 @@ import os
 import json
 import google.generativeai as genai
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
@@ -26,7 +28,7 @@ try:
     
     # Merge with existing
     try:
-        with open('symptoms.json', 'r') as f:
+        with open(BASE_DIR / 'symptoms.json', 'r', encoding='utf-8') as f:
             existing = json.load(f)
     except:
         existing = []
@@ -37,7 +39,7 @@ try:
         if s.get('name', '').lower() not in existing_names:
             existing.append(s)
 
-    with open('symptoms.json', 'w') as f:
+    with open(BASE_DIR / 'symptoms.json', 'w', encoding='utf-8') as f:
         json.dump(existing, f, indent=2)
 
     print("Generating 50 medicines...")
@@ -46,7 +48,7 @@ try:
     medicines_data = json.loads(clean_json(medicines_resp.text))
     
     try:
-        with open('medicines.json', 'r') as f:
+        with open(BASE_DIR / 'medicines.json', 'r', encoding='utf-8') as f:
             existing_meds = json.load(f)
     except:
         existing_meds = []
@@ -56,7 +58,7 @@ try:
         if m.get('name', '').lower() not in existing_med_names:
             existing_meds.append(m)
 
-    with open('medicines.json', 'w') as f:
+    with open(BASE_DIR / 'medicines.json', 'w', encoding='utf-8') as f:
         json.dump(existing_meds, f, indent=2)
 
     print(f"Done! Saved {len(existing)} symptoms and {len(existing_meds)} medicines.")
