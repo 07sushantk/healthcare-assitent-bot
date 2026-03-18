@@ -4,3 +4,4 @@ chromadb==0.6.3
 langdetect==1.0.9
 pillow==11.1.0
 python-dotenv==1.0.1
+Flask==3.0.3
