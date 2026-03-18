@@ -1,0 +1,5 @@
+{
+  "name": "RAG Healthcare Assistant Bot",
+  "description": "A production-ready AI healthcare Telegram bot with RAG using Endee (ChromaDB) and Gemini.",
+  "requestFramePermissions": []
+}

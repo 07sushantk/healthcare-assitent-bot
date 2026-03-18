@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+endee_db/
+.env*
+!.env.example

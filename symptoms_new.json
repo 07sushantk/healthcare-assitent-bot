@@ -1,0 +1,366 @@
+[
+  {
+    "symptoms": "Headache",
+    "primary_advice": "Headaches are very common and often caused by stress, dehydration, lack of sleep, or eye strain. Most are not serious.",
+    "healthcare_diet_or_advice": "Ensure adequate hydration, get sufficient rest, manage stress, maintain good posture, avoid known triggers like certain foods or bright lights.",
+    "medicine_to_take": "Over-the-counter pain relievers like Ibuprofen (Advil, Motrin), Acetaminophen (Tylenol), or Naproxen (Aleve).",
+    "when_to_visit_doctor": "Sudden, severe headache; headache accompanied by fever, stiff neck, confusion, vision changes, weakness, numbness, or difficulty speaking; headache after a head injury; persistent headaches that worsen over time."
+  },
+  {
+    "symptoms": "Fever",
+    "primary_advice": "Fever is an elevated body temperature, often a sign that your body is fighting an infection. It's usually a temporary response.",
+    "healthcare_diet_or_advice": "Stay hydrated by drinking plenty of fluids (water, clear broths), rest in a cool environment, avoid heavy clothing, and use a cool compress.",
+    "medicine_to_take": "Acetaminophen (Tylenol) or Ibuprofen (Advil, Motrin) to help reduce fever and associated discomfort.",
+    "when_to_visit_doctor": "Fever above 103\u00b0F (39.4\u00b0C); fever accompanied by severe headache, stiff neck, rash, confusion, seizures, shortness of breath; fever in infants under 3 months; fever lasting more than 3 days."
+  },
+  {
+    "symptoms": "Cough",
+    "primary_advice": "Coughing is a reflex to clear the airways of irritants or mucus. It's often associated with colds, flu, or allergies.",
+    "healthcare_diet_or_advice": "Drink plenty of fluids, use a humidifier, try honey for soothing, avoid irritants like smoke and dust. For productive coughs, allow expulsion.",
+    "medicine_to_take": "Cough suppressants (Dextromethorphan) for dry cough, expectorants (Guaifenesin) for productive cough, or lozenges for throat irritation.",
+    "when_to_visit_doctor": "Cough lasting more than a few weeks; cough with fever, chills, shortness of breath, chest pain, or coughing up blood; persistent bark-like cough in children."
+  },
+  {
+    "symptoms": "Sore Throat",
+    "primary_advice": "A sore throat is pain or irritation of the throat, often caused by viral infections like the common cold, allergies, or bacterial infections.",
+    "healthcare_diet_or_advice": "Gargle with warm salt water, drink warm liquids (tea with honey), use a humidifier, rest your voice, and avoid irritants.",
+    "medicine_to_take": "Throat lozenges, throat sprays, Acetaminophen (Tylenol), or Ibuprofen (Advil, Motrin) for pain relief.",
+    "when_to_visit_doctor": "Severe sore throat lasting more than a few days, difficulty swallowing, difficulty breathing, rash, fever, or swollen glands, especially if white patches are visible on tonsils."
+  },
+  {
+    "symptoms": "Fatigue",
+    "primary_advice": "Fatigue is persistent tiredness, lack of energy, and exhaustion. It can be due to lack of sleep, stress, poor diet, or an underlying medical condition.",
+    "healthcare_diet_or_advice": "Prioritize sleep, eat a balanced diet, engage in regular light exercise, manage stress, ensure adequate hydration, and limit caffeine/alcohol.",
+    "medicine_to_take": "Generally no medicine for typical fatigue. Multivitamins or iron supplements might be suggested if deficiencies are present, but consult a doctor.",
+    "when_to_visit_doctor": "Persistent or worsening fatigue for several weeks, accompanied by unexplained weight loss, fever, depression, or other concerning symptoms."
+  },
+  {
+    "symptoms": "Nausea",
+    "primary_advice": "Nausea is the sensation of an urge to vomit, often due to digestive issues, motion sickness, medication side effects, or early pregnancy.",
+    "healthcare_diet_or_advice": "Eat bland foods, avoid greasy/spicy foods, drink clear liquids slowly, get fresh air, avoid strong odors, and rest.",
+    "medicine_to_take": "Over-the-counter antiemetics (e.g., Pepto-Bismol, Emetrol) for mild cases, or ginger supplements.",
+    "when_to_visit_doctor": "Persistent nausea accompanied by severe abdominal pain, high fever, severe headache, confusion, or signs of dehydration; if vomiting accompanies it and lasts more than 24 hours."
+  },
+  {
+    "symptoms": "Vomiting",
+    "primary_advice": "Vomiting is the forceful expulsion of stomach contents, often due to viral gastroenteritis, food poisoning, or other irritations.",
+    "healthcare_diet_or_advice": "Rest the stomach by avoiding solid food for a few hours, then slowly reintroduce clear liquids (water, broth, electrolyte solutions), small sips frequently.",
+    "medicine_to_take": "Oral rehydration solutions to prevent dehydration. Over-the-counter antiemetics are generally not recommended without medical advice, especially for children.",
+    "when_to_visit_doctor": "Vomiting lasting more than 24 hours (adults) or 12 hours (children); signs of severe dehydration; severe abdominal pain; vomiting blood or material resembling coffee grounds; projectile vomiting in infants."
+  },
+  {
+    "symptoms": "Diarrhea",
+    "primary_advice": "Diarrhea is loose, watery stools, often caused by viral or bacterial infections, food sensitivities, or certain medications.",
+    "healthcare_diet_or_advice": "Drink plenty of fluids (water, broth, electrolyte solutions) to prevent dehydration. Eat bland foods like the BRAT diet (bananas, rice, applesauce, toast).",
+    "medicine_to_take": "Loperamide (Imodium) to reduce stool frequency. Bismuth subsalicylate (Pepto-Bismol) can help with symptoms. Avoid for children without doctor's advice.",
+    "when_to_visit_doctor": "Diarrhea lasting more than 2 days (adults) or 24 hours (children); severe abdominal or rectal pain; fever above 102\u00b0F (39\u00b0C); black, tarry, or bloody stools; signs of dehydration."
+  },
+  {
+    "symptoms": "Constipation",
+    "primary_advice": "Constipation is infrequent bowel movements or difficulty passing stools. Common causes include lack of fiber, dehydration, lack of physical activity, and certain medications.",
+    "healthcare_diet_or_advice": "Increase fiber intake (fruits, vegetables, whole grains), drink plenty of water, engage in regular physical activity, and establish a regular bowel routine.",
+    "medicine_to_take": "Fiber supplements (e.g., Metamucil, Citrucel), stool softeners (e.g., Docusate sodium), or mild laxatives (e.g., Milk of Magnesia) for short-term relief.",
+    "when_to_visit_doctor": "Sudden onset constipation with severe abdominal pain, inability to pass gas, blood in stools, unexplained weight loss, or constipation lasting longer than 2 weeks."
+  },
+  {
+    "symptoms": "Dizziness",
+    "primary_advice": "Dizziness is a general term encompassing lightheadedness, vertigo (spinning sensation), and unsteadiness. It can be due to dehydration, low blood sugar, inner ear issues, or medication side effects.",
+    "healthcare_diet_or_advice": "Sit or lie down immediately, slowly change positions, stay hydrated, avoid sudden head movements, eat regular meals.",
+    "medicine_to_take": "No specific OTC medication for general dizziness. Motion sickness medication (e.g., Dramamine) might help if related to motion.",
+    "when_to_visit_doctor": "Sudden, severe dizziness accompanied by vision changes, weakness, difficulty speaking, numbness, chest pain, irregular heartbeat, or severe headache."
+  },
+  {
+    "symptoms": "Rash",
+    "primary_advice": "A rash is a change in the skin's color or texture, often due to allergies, infections, irritation, or autoimmune conditions.",
+    "healthcare_diet_or_advice": "Keep the affected area clean and dry, avoid scratching, use mild soaps, wear loose-fitting clothing, and avoid known irritants.",
+    "medicine_to_take": "Hydrocortisone cream for itchy rashes, antihistamines (e.g., Diphenhydramine, Loratadine) for allergic reactions, or calamine lotion for soothing.",
+    "when_to_visit_doctor": "Rash covering a large part of the body, sudden widespread rash, rash with fever, blistering, severe pain, signs of infection (pus, warmth), or difficulty breathing."
+  },
+  {
+    "symptoms": "Abdominal Pain",
+    "primary_advice": "Abdominal pain can range from mild discomfort to severe, sharp pain, with causes including indigestion, gas, menstrual cramps, or more serious conditions.",
+    "healthcare_diet_or_advice": "Identify and avoid trigger foods, eat smaller meals, stay hydrated, avoid carbonated drinks. Apply a warm compress to the abdomen.",
+    "medicine_to_take": "Antacids for indigestion, simethicone for gas, or Ibuprofen/Acetaminophen for general discomfort (avoid NSAIDs if stomach upset is a concern).",
+    "when_to_visit_doctor": "Severe or worsening pain, pain localized to one area, pain with fever, vomiting, blood in stool, persistent diarrhea or constipation, or inability to pass gas."
+  },
+  {
+    "symptoms": "Chest Pain",
+    "primary_advice": "Chest pain can arise from many sources, including muscle strain, heartburn, anxiety, but it can also be a sign of a heart attack or other serious conditions.",
+    "healthcare_diet_or_advice": "For heartburn-related chest pain: avoid trigger foods, eat smaller meals, don't lie down immediately after eating. For muscle strain: rest, gentle stretching.",
+    "medicine_to_take": "Antacids for heartburn. For suspected muscle pain, Acetaminophen or Ibuprofen. DO NOT SELF-TREAT if you suspect a heart-related issue.",
+    "when_to_visit_doctor": "Chest pain accompanied by shortness of breath, sweating, nausea, dizziness, pain radiating to the arm/jaw/back, pressure or tightness in the chest, or pain that does not resolve with rest."
+  },
+  {
+    "symptoms": "Shortness of Breath",
+    "primary_advice": "Shortness of breath (dyspnea) is a feeling of not getting enough air. It can be caused by strenuous exercise, anxiety, or more serious respiratory or cardiac issues.",
+    "healthcare_diet_or_advice": "If mild and temporary, rest, sit upright, try controlled breathing techniques. Avoid irritants like smoke.",
+    "medicine_to_take": "No specific OTC medicine for general shortness of breath. Asthma inhalers if you have a known asthma diagnosis.",
+    "when_to_visit_doctor": "Sudden onset severe shortness of breath, shortness of breath at rest, accompanied by chest pain, dizziness, fainting, blue lips/fingertips, wheezing, or persistent cough."
+  },
+  {
+    "symptoms": "Muscle Aches",
+    "primary_advice": "Muscle aches (myalgia) are common and often result from overuse, injury, stress, or viral infections like the flu.",
+    "healthcare_diet_or_advice": "Rest the affected muscle, apply heat or cold packs, gentle stretching, stay hydrated, ensure adequate sleep.",
+    "medicine_to_take": "Over-the-counter pain relievers like Acetaminophen (Tylenol), Ibuprofen (Advil), or topical pain relief creams (e.g., Bengay, Voltaren gel).",
+    "when_to_visit_doctor": "Severe muscle pain that started without clear cause, accompanied by fever, rash, swelling, redness, loss of function, or persistent pain lasting more than a few days."
+  },
+  {
+    "symptoms": "Joint Pain",
+    "primary_advice": "Joint pain can be caused by injury, arthritis, overuse, or inflammation. It can range from mild to severe and affect any joint.",
+    "healthcare_diet_or_advice": "Rest the joint, apply ice or heat, gentle stretching, maintain a healthy weight, low-impact exercise.",
+    "medicine_to_take": "Over-the-counter pain relievers like Acetaminophen or NSAIDs (Ibuprofen, Naproxen). Topical pain relief creams containing menthol or capsaicin.",
+    "when_to_visit_doctor": "Severe joint pain that limits movement, joint swelling, redness, warmth, tenderness around the joint, persistent pain for several weeks, or pain associated with fever or rash."
+  },
+  {
+    "symptoms": "Runny Nose",
+    "primary_advice": "A runny nose (rhinorrhea) is usually a symptom of the common cold, allergies, or sinusitis. It's the body's way of expelling irritants or viruses.",
+    "healthcare_diet_or_advice": "Stay hydrated, use saline nasal sprays, rest, avoid irritants, and use a humidifier.",
+    "medicine_to_take": "Decongestants (e.g., Pseudoephedrine, Phenylephrine) to reduce swelling in nasal passages, or antihistamines for allergy-related runny nose.",
+    "when_to_visit_doctor": "Runny nose lasting longer than 10 days, accompanied by fever, severe facial pain, green/yellow discharge that persists, or worsening symptoms."
+  },
+  {
+    "symptoms": "Nasal Congestion",
+    "primary_advice": "Nasal congestion (stuffy nose) is often due to inflammation of the nasal lining, common with colds, flu, allergies, or sinus infections.",
+    "healthcare_diet_or_advice": "Use saline nasal sprays or rinses, a humidifier, steam inhalation, drink plenty of fluids, and avoid irritants.",
+    "medicine_to_take": "Decongestant nasal sprays (e.g., Oxymetazoline for short-term use only) or oral decongestants (e.g., Pseudoephedrine). Antihistamines for allergy-related congestion.",
+    "when_to_visit_doctor": "Congestion lasting more than 10 days, severe facial pain, high fever, vision changes, or worsening symptoms despite home care."
+  },
+  {
+    "symptoms": "Eye Irritation/Redness",
+    "primary_advice": "Eye irritation or redness can be caused by allergies, dry eyes, eye strain, foreign objects, or infections like conjunctivitis (pink eye).",
+    "healthcare_diet_or_advice": "Avoid rubbing eyes, use artificial tears, remove contact lenses if worn, avoid known allergens, practice good hand hygiene.",
+    "medicine_to_take": "Artificial tears for dryness, antihistamine eye drops for allergies. Do not use medicated drops without knowing the cause.",
+    "when_to_visit_doctor": "Eye pain, blurred vision, sensitivity to light, discharge (especially thick or green/yellow), sudden vision changes, foreign object lodged in eye, or symptoms worsening after 24 hours."
+  },
+  {
+    "symptoms": "Earache",
+    "primary_advice": "Earache can stem from an ear infection, fluid buildup, earwax impaction, pressure changes, or referred pain from the throat or jaw.",
+    "healthcare_diet_or_advice": "Apply a warm compress to the ear, avoid cotton swabs for cleaning, avoid getting water in the ear. Chewing gum might help with pressure changes.",
+    "medicine_to_take": "Over-the-counter pain relievers like Acetaminophen or Ibuprofen. Ear drops might be prescribed if an infection is present.",
+    "when_to_visit_doctor": "Severe ear pain, fever, fluid or pus draining from the ear, sudden hearing loss, dizziness, ringing in the ears, or earache in an infant."
+  },
+  {
+    "symptoms": "Back Pain",
+    "primary_advice": "Back pain is very common, often due to muscle strain, poor posture, heavy lifting, or prolonged sitting. Most acute back pain improves with self-care.",
+    "healthcare_diet_or_advice": "Rest (but avoid prolonged bed rest), apply heat or cold, gentle stretching, maintain good posture, regular low-impact exercise, use proper lifting techniques.",
+    "medicine_to_take": "Over-the-counter pain relievers like Acetaminophen or NSAIDs (Ibuprofen, Naproxen). Topical pain relief creams.",
+    "when_to_visit_doctor": "Severe back pain after an injury, pain radiating down one or both legs, numbness or weakness in legs, loss of bowel or bladder control, unexplained weight loss, or persistent pain lasting more than a few weeks."
+  },
+  {
+    "symptoms": "Heartburn",
+    "primary_advice": "Heartburn is a burning sensation in the chest, often after eating, caused by stomach acid flowing back into the esophagus (acid reflux).",
+    "healthcare_diet_or_advice": "Avoid trigger foods (spicy, fatty, acidic), eat smaller meals, don't lie down immediately after eating, elevate head of bed, maintain a healthy weight.",
+    "medicine_to_take": "Antacids (e.g., Tums, Rolaids) for quick relief. H2 blockers (e.g., Pepcid AC) or proton pump inhibitors (e.g., Prilosec OTC) for more persistent symptoms.",
+    "when_to_visit_doctor": "Heartburn that is severe, frequent, or unresponsive to OTC medications; difficulty swallowing; unexplained weight loss; black or bloody stools; or if chest pain is also present and might indicate a heart problem."
+  },
+  {
+    "symptoms": "Bloating",
+    "primary_advice": "Bloating is a feeling of fullness, tightness, or swelling in the abdomen, often caused by gas, indigestion, or fluid retention.",
+    "healthcare_diet_or_advice": "Eat slowly, avoid carbonated drinks and chewing gum, identify and avoid trigger foods (e.g., certain vegetables, dairy), regular exercise.",
+    "medicine_to_take": "Simethicone (Gas-X) for gas relief. Alpha-galactosidase (Beano) before meals with gas-producing foods. Probiotics might help some individuals.",
+    "when_to_visit_doctor": "Persistent or worsening bloating, accompanied by severe abdominal pain, unexplained weight loss, changes in bowel habits, blood in stool, or nausea/vomiting."
+  },
+  {
+    "symptoms": "Swelling",
+    "primary_advice": "Swelling (edema) is an enlargement of body parts due to fluid retention or inflammation, often in ankles, legs, or hands. Can be due to injury, prolonged standing, or underlying conditions.",
+    "healthcare_diet_or_advice": "Elevate the swollen limb, avoid prolonged standing/sitting, wear compression stockings, reduce sodium intake, gentle movement.",
+    "medicine_to_take": "Generally no OTC medicine for swelling itself. NSAIDs (Ibuprofen) can help reduce swelling if it's due to inflammation or injury.",
+    "when_to_visit_doctor": "Sudden or severe swelling, swelling accompanied by pain, redness, warmth, fever, shortness of breath, chest pain, or swelling in only one limb that is warm/red (possible DVT)."
+  },
+  {
+    "symptoms": "Bruising",
+    "primary_advice": "Bruising (contusion) occurs when small blood vessels under the skin break due to impact, leading to discoloration. Common and usually not serious.",
+    "healthcare_diet_or_advice": "Apply a cold compress immediately after injury to reduce swelling and pain. Elevate the injured area. Avoid activities that might worsen the bruise.",
+    "medicine_to_take": "Acetaminophen (Tylenol) for pain. Topical creams containing Arnica might help some, though scientific evidence is limited.",
+    "when_to_visit_doctor": "Large, painful bruises after minor trauma, bruising that appears without an obvious cause, bruising around the eyes or head after a fall, or if accompanied by severe pain, swelling, or limited movement."
+  },
+  {
+    "symptoms": "Lightheadedness",
+    "primary_advice": "Lightheadedness is a feeling of faintness, wooziness, or unsteadiness. It can be caused by dehydration, low blood sugar, standing up too quickly, or anxiety.",
+    "healthcare_diet_or_advice": "Sit or lie down immediately, slowly change positions, stay hydrated, eat regular meals, avoid skipping meals, avoid standing for long periods.",
+    "medicine_to_take": "No specific OTC medication. Address underlying causes like dehydration with oral rehydration solutions.",
+    "when_to_visit_doctor": "Frequent or persistent lightheadedness, accompanied by fainting, chest pain, shortness of breath, vision changes, numbness/tingling, severe headache, or confusion."
+  },
+  {
+    "symptoms": "Numbness/Tingling",
+    "primary_advice": "Numbness or tingling (paresthesia) is a 'pins and needles' sensation, often caused by sustained pressure on a nerve, anxiety, or can be a symptom of more serious conditions.",
+    "healthcare_diet_or_advice": "Change position, stretch. For temporary causes, it usually resolves on its own. Ensure good posture.",
+    "medicine_to_take": "No specific OTC medicine. Multivitamins containing B vitamins might be considered if a deficiency is suspected, but consult a doctor first.",
+    "when_to_visit_doctor": "Sudden onset numbness/tingling without clear cause, weakness, paralysis, severe headache, vision changes, difficulty speaking, loss of bladder/bowel control, or if it spreads rapidly."
+  },
+  {
+    "symptoms": "Frequent Urination",
+    "primary_advice": "Frequent urination can be due to increased fluid intake, caffeine/alcohol, cold weather, anxiety, or underlying conditions like UTIs or diabetes.",
+    "healthcare_diet_or_advice": "Monitor fluid intake, reduce caffeine/alcohol, avoid irritants. Practice bladder training if not due to a medical cause.",
+    "medicine_to_take": "No specific OTC medicine for frequent urination. For UTI-related discomfort, phenazopyridine (AZO Urinary Pain Relief) can ease pain, but doesn't treat the infection.",
+    "when_to_visit_doctor": "Frequent urination accompanied by pain or burning during urination, fever, back pain, blood in urine, strong odor, or increased thirst and unexplained weight loss."
+  },
+  {
+    "symptoms": "Painful Urination",
+    "primary_advice": "Painful urination (dysuria) is often a sign of a urinary tract infection (UTI), but can also be due to STIs, kidney stones, or irritation.",
+    "healthcare_diet_or_advice": "Drink plenty of water to help flush bacteria, avoid caffeine and alcohol, avoid irritating soaps/douches, urinate after intercourse.",
+    "medicine_to_take": "Phenazopyridine (AZO Urinary Pain Relief) can provide temporary relief from pain and burning, but it does not treat the underlying infection.",
+    "when_to_visit_doctor": "Any painful urination, especially with fever, chills, back pain, nausea, vomiting, or blood in urine. Prompt medical attention is needed to diagnose and treat the cause."
+  },
+  {
+    "symptoms": "Blood in Urine",
+    "primary_advice": "Blood in urine (hematuria) can be visible or microscopic. It can be caused by UTIs, kidney stones, strenuous exercise, or more serious conditions like kidney disease or cancer.",
+    "healthcare_diet_or_advice": "Increase fluid intake if not contraindicated, avoid bladder irritants. This symptom warrants immediate medical evaluation.",
+    "medicine_to_take": "No specific OTC medication. Treatment depends on the underlying cause.",
+    "when_to_visit_doctor": "ANY instance of visible blood in the urine, even if it's a small amount and resolves quickly. This requires immediate medical evaluation."
+  },
+  {
+    "symptoms": "Unusual Vaginal Discharge",
+    "primary_advice": "Vaginal discharge is normal, but changes in color, odor, or consistency can indicate an infection (yeast, bacterial vaginosis) or an STI.",
+    "healthcare_diet_or_advice": "Wear cotton underwear, avoid douching, use mild, unscented soaps. Practice good hygiene. Avoid sexual activity if an STI is suspected.",
+    "medicine_to_take": "Over-the-counter antifungal creams (e.g., Monistat) for suspected yeast infections. Other types of discharge require prescription medication.",
+    "when_to_visit_doctor": "Any unusual change in discharge (green, yellow, gray, frothy, strong odor), accompanied by itching, burning, pelvic pain, or fever."
+  },
+  {
+    "symptoms": "Menstrual Cramps (severe)",
+    "primary_advice": "Severe menstrual cramps (dysmenorrhea) are common but can sometimes indicate underlying conditions like endometriosis or fibroids.",
+    "healthcare_diet_or_advice": "Apply a heating pad to the abdomen, gentle exercise, warm baths, reduce caffeine and salt, increase omega-3 fatty acids, stress management.",
+    "medicine_to_take": "NSAIDs (Ibuprofen, Naproxen) taken at the onset of pain. Acetaminophen can also provide relief. Hormonal birth control can be prescribed.",
+    "when_to_visit_doctor": "Cramps that are significantly worse than usual, not relieved by OTC medications, accompanied by heavy bleeding, fever, pelvic pain outside of menstruation, or if symptoms disrupt daily life."
+  },
+  {
+    "symptoms": "Skin Itching",
+    "primary_advice": "Skin itching (pruritus) can be caused by dry skin, allergic reactions, insect bites, certain skin conditions (eczema, psoriasis), or internal diseases.",
+    "healthcare_diet_or_advice": "Moisturize regularly, take lukewarm baths, wear loose cotton clothing, avoid harsh soaps, identify and avoid allergens. Trim nails to prevent scratching.",
+    "medicine_to_take": "Hydrocortisone cream for localized itch, oral antihistamines (e.g., Diphenhydramine for nighttime, Loratadine for daytime) for generalized itch.",
+    "when_to_visit_doctor": "Severe or persistent itching, accompanied by a widespread rash, fever, weight loss, jaundice, or if it disrupts sleep or daily activities."
+  },
+  {
+    "symptoms": "Dry Skin",
+    "primary_advice": "Dry skin (xerosis) is common, especially in cold or dry climates, or due to frequent washing, harsh soaps, and certain medical conditions.",
+    "healthcare_diet_or_advice": "Moisturize frequently (especially after bathing), use gentle cleansers, avoid very hot water, use a humidifier, drink plenty of water.",
+    "medicine_to_take": "Over-the-counter emollients and moisturizers (creams, ointments). Avoid products with fragrances or harsh chemicals.",
+    "when_to_visit_doctor": "Severe dry skin with redness, cracking, itching that doesn't improve with home care, or if it's accompanied by rash, infection, or other symptoms."
+  },
+  {
+    "symptoms": "Vision Changes",
+    "primary_advice": "Vision changes can include blurred vision, double vision, flashes, floaters, or loss of peripheral vision. Some are benign, others indicate serious conditions.",
+    "healthcare_diet_or_advice": "Ensure adequate lighting, take breaks from screens (20-20-20 rule), maintain a healthy diet. Get regular eye exams.",
+    "medicine_to_take": "No specific OTC medicine. Reading glasses might help with presbyopia. Consult an optometrist/ophthalmologist.",
+    "when_to_visit_doctor": "Sudden loss of vision, sudden onset of blurred or double vision, new flashes of light or numerous floaters, severe eye pain, persistent halos around lights, or any sudden, significant change in vision."
+  },
+  {
+    "symptoms": "Ringing in Ears (Tinnitus)",
+    "primary_advice": "Tinnitus is the perception of noise or ringing in the ears. It can be caused by exposure to loud noise, earwax buildup, certain medications, or underlying medical conditions.",
+    "healthcare_diet_or_advice": "Avoid loud noises, manage stress, reduce caffeine/alcohol intake. Use white noise machines to mask the sound.",
+    "medicine_to_take": "No specific OTC medicine for tinnitus itself. If due to earwax, OTC earwax removal kits might help.",
+    "when_to_visit_doctor": "Sudden onset tinnitus, tinnitus in one ear, tinnitus with hearing loss, dizziness, severe ear pain, or if it significantly affects daily life."
+  },
+  {
+    "symptoms": "Difficulty Swallowing",
+    "primary_advice": "Difficulty swallowing (dysphagia) can be caused by dry mouth, sore throat, anxiety, or more serious issues affecting the esophagus or nervous system.",
+    "healthcare_diet_or_advice": "Eat slowly, chew food thoroughly, drink water with meals, choose soft or pureed foods. Avoid very hot or cold foods. If due to dry mouth, sip water frequently.",
+    "medicine_to_take": "No specific OTC medicine. Antacids might help if heartburn is contributing. Consult a doctor for diagnosis.",
+    "when_to_visit_doctor": "Persistent difficulty swallowing, pain with swallowing, choking episodes, unexplained weight loss, regurgitation of food, or feeling that food is stuck in the throat/chest."
+  },
+  {
+    "symptoms": "Hoarseness",
+    "primary_advice": "Hoarseness is a change in voice quality, often caused by laryngitis (inflammation of the voice box), overuse of voice, colds, or allergies.",
+    "healthcare_diet_or_advice": "Rest your voice, avoid whispering, stay hydrated, use a humidifier, avoid irritants like smoke and excessive caffeine/alcohol.",
+    "medicine_to_take": "Throat lozenges for comfort. No specific OTC medicine for hoarseness itself. Antacids if related to reflux.",
+    "when_to_visit_doctor": "Hoarseness lasting more than 2-3 weeks, especially if not accompanied by a cold or flu; hoarseness with difficulty breathing, difficulty swallowing, or coughing up blood."
+  },
+  {
+    "symptoms": "Loss of Appetite",
+    "primary_advice": "Loss of appetite can be temporary due to illness, stress, medication side effects, or a symptom of various underlying medical conditions.",
+    "healthcare_diet_or_advice": "Eat small, frequent meals, choose nutrient-dense foods, make meals appealing, stay hydrated, light exercise (if able).",
+    "medicine_to_take": "No specific OTC medicine. Multivitamins might be considered if food intake is significantly reduced, but consult a doctor.",
+    "when_to_visit_doctor": "Persistent loss of appetite, accompanied by unexplained weight loss, fever, severe pain, nausea, vomiting, or changes in bowel habits."
+  },
+  {
+    "symptoms": "Unexplained Weight Loss",
+    "primary_advice": "Unexplained weight loss is losing a significant amount of weight without trying. It can be a symptom of various serious underlying conditions including thyroid issues, digestive disorders, or cancer.",
+    "healthcare_diet_or_advice": "Maintain a balanced diet with adequate caloric intake. This symptom requires prompt medical evaluation.",
+    "medicine_to_take": "No specific OTC medication. Focus on addressing the underlying cause with a doctor.",
+    "when_to_visit_doctor": "Any significant and unexplained weight loss (e.g., more than 5% of body weight over 6-12 months) requires immediate medical evaluation, especially if accompanied by other symptoms like fatigue, fever, or changes in bowel habits."
+  },
+  {
+    "symptoms": "Swollen Glands",
+    "primary_advice": "Swollen glands (lymph nodes) are often a sign your body is fighting an infection (e.g., cold, flu, strep throat). They can also swell due to inflammation or, less commonly, more serious conditions.",
+    "healthcare_diet_or_advice": "Rest, apply a warm, moist compress to the swollen area, drink plenty of fluids.",
+    "medicine_to_take": "Acetaminophen or Ibuprofen for pain and fever if present.",
+    "when_to_visit_doctor": "Swollen glands that are very large, very hard, tender to the touch, do not go away after a few weeks, are accompanied by fever, night sweats, unexplained weight loss, or are located above the collarbone."
+  },
+  {
+    "symptoms": "Night Sweats",
+    "primary_advice": "Night sweats are excessive sweating at night that soaks nightclothes or bedding, not related to an overheated room. Can be caused by menopause, infections, certain medications, or other conditions.",
+    "healthcare_diet_or_advice": "Keep your bedroom cool, wear light moisture-wicking pajamas, avoid spicy foods/caffeine/alcohol before bed, manage stress.",
+    "medicine_to_take": "No specific OTC medication. Treatment depends on the underlying cause.",
+    "when_to_visit_doctor": "Frequent or severe night sweats not due to an obvious cause (like a warm room), especially if accompanied by fever, unexplained weight loss, or swollen glands."
+  },
+  {
+    "symptoms": "Chills",
+    "primary_advice": "Chills are a sensation of coldness, often with shivering, and can occur with or without fever. They are often a symptom of infection (e.g., flu, cold).",
+    "healthcare_diet_or_advice": "Stay warm, bundle up, drink warm liquids, rest. If fever is present, manage as advised for fever.",
+    "medicine_to_take": "Acetaminophen (Tylenol) or Ibuprofen (Advil) to help reduce fever and discomfort associated with chills.",
+    "when_to_visit_doctor": "Chills accompanied by a high fever (especially if unresponsive to medication), severe headache, stiff neck, rash, severe body aches, or confusion."
+  },
+  {
+    "symptoms": "Heart Palpitations",
+    "primary_advice": "Heart palpitations are feelings of a racing, pounding, fluttering, or skipped heartbeat. They are often harmless, caused by stress, caffeine, dehydration, or anxiety, but can also indicate heart rhythm problems.",
+    "healthcare_diet_or_advice": "Reduce caffeine/alcohol intake, manage stress, stay hydrated, avoid triggers. Practice relaxation techniques.",
+    "medicine_to_take": "No specific OTC medicine. Antacids if related to acid reflux. Consult a doctor for evaluation.",
+    "when_to_visit_doctor": "Palpitations accompanied by chest pain, shortness of breath, dizziness, lightheadedness, fainting, or if they occur frequently or worsen."
+  },
+  {
+    "symptoms": "Difficulty Sleeping (Insomnia)",
+    "primary_advice": "Insomnia is difficulty falling or staying asleep. It can be caused by stress, anxiety, poor sleep habits, certain medications, or underlying health conditions.",
+    "healthcare_diet_or_advice": "Establish a consistent sleep schedule, create a relaxing bedtime routine, optimize bedroom environment (dark, quiet, cool), avoid caffeine/alcohol/large meals before bed, regular exercise (not close to bedtime).",
+    "medicine_to_take": "Over-the-counter sleep aids (e.g., Diphenhydramine) for short-term use. Melatonin might help some individuals.",
+    "when_to_visit_doctor": "Chronic insomnia (lasting more than a few weeks), significantly impacting daily life, or if accompanied by other concerning symptoms like severe fatigue or mood changes."
+  },
+  {
+    "symptoms": "Anxiety",
+    "primary_advice": "Anxiety is a feeling of worry, nervousness, or unease, typically about an event or something with an uncertain outcome. While normal, excessive anxiety can become a disorder.",
+    "healthcare_diet_or_advice": "Practice stress reduction techniques (meditation, yoga, deep breathing), regular exercise, balanced diet, limit caffeine, ensure adequate sleep, maintain social connections.",
+    "medicine_to_take": "No specific OTC medicine. Herbal remedies like chamomile tea or lavender oil might offer mild relief for some, but use with caution.",
+    "when_to_visit_doctor": "Anxiety that is persistent, severe, or interferes with daily life; panic attacks; anxiety accompanied by chest pain, shortness of breath (rule out cardiac), or suicidal thoughts."
+  },
+  {
+    "symptoms": "Depression (low mood)",
+    "primary_advice": "Persistent low mood or sadness, loss of interest in activities, changes in appetite or sleep, and feelings of worthlessness can indicate depression.",
+    "healthcare_diet_or_advice": "Engage in regular physical activity, maintain a healthy diet, get sufficient sleep, connect with loved ones, practice mindfulness, limit alcohol. Seek professional help.",
+    "medicine_to_take": "No specific OTC medicine. St. John's Wort might be used for mild depression but can interact with other medications; consult a doctor before use.",
+    "when_to_visit_doctor": "Persistent low mood lasting more than two weeks, feelings of hopelessness, thoughts of self-harm or suicide, significant changes in sleep/appetite, or inability to perform daily activities."
+  },
+  {
+    "symptoms": "Confusion",
+    "primary_advice": "Confusion is a state of disorientation, difficulty thinking clearly, or impaired decision-making. It can be caused by fever, dehydration, medication side effects, infections, or serious neurological conditions.",
+    "healthcare_diet_or_advice": "Ensure adequate hydration, provide a calm and familiar environment, gentle reorientation. This symptom often warrants urgent medical attention.",
+    "medicine_to_take": "No specific OTC medicine. Treatment depends entirely on the underlying cause.",
+    "when_to_visit_doctor": "Sudden onset of confusion, confusion with fever, stiff neck, severe headache, weakness, difficulty speaking, vision changes, or after a head injury. This is a medical emergency."
+  },
+  {
+    "symptoms": "Weakness (generalized)",
+    "primary_advice": "Generalized weakness is a feeling of overall lack of physical strength or energy, which can be due to illness, fatigue, dehydration, nutrient deficiencies, or more serious conditions.",
+    "healthcare_diet_or_advice": "Rest, stay hydrated, ensure a balanced diet, light exercise if tolerated. Avoid overexertion.",
+    "medicine_to_take": "No specific OTC medicine. Multivitamins might be considered if a deficiency is suspected, but consult a doctor first.",
+    "when_to_visit_doctor": "Sudden onset of weakness in one side of the body, weakness with difficulty speaking/swallowing/breathing, severe headache, vision changes, or progressive weakness that worsens over time."
+  },
+  {
+    "symptoms": "Indigestion",
+    "primary_advice": "Indigestion (dyspepsia) is discomfort or pain in the upper abdomen, often after eating, accompanied by bloating, fullness, or nausea.",
+    "healthcare_diet_or_advice": "Eat smaller, more frequent meals, avoid trigger foods (fatty, spicy, acidic), eat slowly, avoid lying down immediately after eating, manage stress.",
+    "medicine_to_take": "Antacids (e.g., Tums, Rolaids), H2 blockers (e.g., Pepcid AC), or bismuth subsalicylate (Pepto-Bismol) for symptomatic relief.",
+    "when_to_visit_doctor": "Persistent indigestion that doesn't improve with OTC medications, accompanied by unexplained weight loss, difficulty swallowing, black or bloody stools, or chest pain."
+  },
+  {
+    "symptoms": "Joint Stiffness",
+    "primary_advice": "Joint stiffness is a sensation of difficulty moving a joint, often worse in the morning or after periods of inactivity. Common causes include arthritis, injury, or overuse.",
+    "healthcare_diet_or_advice": "Regular gentle exercise, stretching, application of heat packs, warm baths, maintaining a healthy weight. Stay hydrated.",
+    "medicine_to_take": "Over-the-counter pain relievers like Ibuprofen or Acetaminophen. Topical pain relief creams.",
+    "when_to_visit_doctor": "Severe stiffness that limits daily activities, stiffness accompanied by significant joint pain, swelling, redness, warmth, or fever, especially if morning stiffness lasts for more than 30 minutes."
+  },
+  {
+    "symptoms": "Unusual Skin Growths/Moles",
+    "primary_advice": "While many skin growths and moles are benign, new or changing ones can be a sign of skin cancer (melanoma or other types). Regular self-exams are important.",
+    "healthcare_diet_or_advice": "Protect your skin from sun exposure (sunscreen, protective clothing), avoid tanning beds, perform monthly skin self-checks (ABCDE rule for moles).",
+    "medicine_to_take": "No OTC medicine. Prevention and early detection are key.",
+    "when_to_visit_doctor": "Any new skin growth, a mole that changes in size, shape, color, or texture, becomes itchy or bleeds (follow the ABCDEs: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving). Immediate evaluation by a dermatologist is recommended."
+  }
+]

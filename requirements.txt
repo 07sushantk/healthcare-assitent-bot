@@ -1,0 +1,6 @@
+python-telegram-bot==21.10
+google-generativeai==0.8.3
+chromadb==0.6.3
+langdetect==1.0.9
+pillow==11.1.0
+python-dotenv==1.0.1

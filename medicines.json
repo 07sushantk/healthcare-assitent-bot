@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Paracetamol",
+    "usage": "Used to treat many conditions such as headache, muscle aches, arthritis, backache, toothaches, colds, and fevers.",
+    "side_effects": "Nausea, stomach pain, loss of appetite, itching, rash.",
+    "dosage": "Adults: 500mg to 1g every 4-6 hours. Do not exceed 4g in 24 hours."
+  },
+  {
+    "name": "Ibuprofen",
+    "usage": "Used to reduce fever and treat pain or inflammation caused by many conditions such as headache, toothache, back pain, arthritis, menstrual cramps, or minor injury.",
+    "side_effects": "Stomach pain, heartburn, nausea, vomiting, gas, constipation, diarrhea.",
+    "dosage": "Adults: 200-400mg every 4-6 hours. Do not exceed 1200mg in 24 hours unless directed by a doctor."
+  },
+  {
+    "name": "Amoxicillin",
+    "usage": "A penicillin antibiotic that fights bacteria. It is used to treat many different types of infection caused by bacteria, such as tonsillitis, bronchitis, pneumonia, and infections of the ear, nose, throat, skin, or urinary tract.",
+    "side_effects": "Nausea, vomiting, diarrhea, stomach pain, vaginal itching or discharge.",
+    "dosage": "As prescribed by a doctor. Usually 250mg to 500mg every 8 hours."
+  },
+  {
+    "name": "Acetaminophen",
+    "usage": "Pain relief, fever reduction",
+    "side_effects": "Liver damage (rare, especially with overdose), rash, nausea",
+    "dosage": "Adults: 325-1000 mg every 4-6 hours as needed; not to exceed 4000 mg per day."
+  },
+  {
+    "name": "Aspirin",
+    "usage": "Pain relief, fever reduction, anti-inflammatory, blood thinning",
+    "side_effects": "Stomach upset, heartburn, bleeding, tinnitus (ringing in ears)",
+    "dosage": "Adults: 325-650 mg every 4 hours as needed for pain/fever. For cardiovascular prevention: 81-325 mg once daily."
+  },
+  {
+    "name": "Lisinopril",
+    "usage": "High blood pressure, heart failure",
+    "side_effects": "Cough, dizziness, fatigue, headache, kidney problems",
+    "dosage": "Adults: 10 mg once daily, may increase to 20-40 mg daily."
+  },
+  {
+    "name": "Metformin",
+    "usage": "Type 2 diabetes",
+    "side_effects": "Nausea, vomiting, diarrhea, stomach upset, vitamin B12 deficiency",
+    "dosage": "Adults: Start with 500 mg once or twice daily with meals, may increase gradually."
+  },
+  {
+    "name": "Atorvastatin",
+    "usage": "High cholesterol",
+    "side_effects": "Muscle pain, diarrhea, nausea, headache, liver problems",
+    "dosage": "Adults: 10-80 mg once daily."
+  },
+  {
+    "name": "Azithromycin",
+    "usage": "Bacterial infections (respiratory, skin, sexually transmitted)",
+    "side_effects": "Nausea, vomiting, diarrhea, stomach pain, dizziness",
+    "dosage": "Adults: 500 mg on day 1, then 250 mg once daily for 4 more days (typical regimen)."
+  },
+  {
+    "name": "Levothyroxine",
+    "usage": "Hypothyroidism (underactive thyroid)",
+    "side_effects": "Heart palpitations, anxiety, weight loss, tremors, heat intolerance",
+    "dosage": "Adults: Dosage varies widely based on individual needs, typically starting at 25-50 mcg once daily."
+  },
+  {
+    "name": "Omeprazole",
+    "usage": "Acid reflux, heartburn, ulcers",
+    "side_effects": "Headache, diarrhea, stomach pain, nausea, constipation",
+    "dosage": "Adults: 20 mg once daily before a meal."
+  },
+  {
+    "name": "Simvastatin",
+    "usage": "High cholesterol",
+    "side_effects": "Muscle pain, liver problems, headache, nausea",
+    "dosage": "Adults: 5-40 mg once daily."
+  },
+  {
+    "name": "Losartan",
+    "usage": "High blood pressure, heart failure",
+    "side_effects": "Dizziness, fatigue, low blood pressure, cough (less common than ACE inhibitors)",
+    "dosage": "Adults: 50 mg once daily."
+  },
+  {
+    "name": "Albuterol",
+    "usage": "Asthma, COPD (bronchodilator)",
+    "side_effects": "Tremors, nervousness, increased heart rate, headache",
+    "dosage": "Adults: 2 puffs inhaled every 4-6 hours as needed."
+  },
+  {
+    "name": "Sertraline",
+    "usage": "Depression, anxiety, OCD, PTSD",
+    "side_effects": "Nausea, diarrhea, insomnia, dizziness, sexual dysfunction",
+    "dosage": "Adults: Start with 25-50 mg once daily, may increase up to 200 mg daily."
+  },
+  {
+    "name": "Escitalopram",
+    "usage": "Depression, anxiety",
+    "side_effects": "Nausea, insomnia, fatigue, dizziness, sexual dysfunction",
+    "dosage": "Adults: Start with 5-10 mg once daily, may increase up to 20 mg daily."
+  },
+  {
+    "name": "Trazodone",
+    "usage": "Depression, insomnia",
+    "side_effects": "Drowsiness, dizziness, dry mouth, blurred vision, priapism (rare)",
+    "dosage": "Adults: For depression: 150 mg/day in divided doses, may increase. For insomnia: 50-100 mg at bedtime."
+  },
+  {
+    "name": "Gabapentin",
+    "usage": "Seizures, nerve pain (neuropathy), restless legs syndrome",
+    "side_effects": "Drowsiness, dizziness, fatigue, weight gain, swelling",
+    "dosage": "Adults: Dosage varies widely based on condition, typically starting at 300 mg three times daily."
+  },
+  {
+    "name": "Prednisone",
+    "usage": "Inflammation, autoimmune diseases, allergic reactions",
+    "side_effects": "Weight gain, mood changes, increased appetite, thinning skin, increased risk of infection",
+    "dosage": "Adults: Dosage and duration vary significantly. Typically starts higher and tapers down."
+  },
+  {
+    "name": "Warfarin",
+    "usage": "Blood thinning (prevent blood clots)",
+    "side_effects": "Bleeding, bruising, rash, nausea",
+    "dosage": "Adults: Dosage determined by INR monitoring, typically 2-10 mg once daily."
+  },
+  {
+    "name": "Loratadine",
+    "usage": "Allergies (antihistamine)",
+    "side_effects": "Headache, drowsiness (less common than older antihistamines), dry mouth",
+    "dosage": "Adults: 10 mg once daily."
+  },
+  {
+    "name": "Diphenhydramine",
+    "usage": "Allergies, insomnia, motion sickness",
+    "side_effects": "Drowsiness, dizziness, dry mouth, blurred vision, confusion (especially in elderly)",
+    "dosage": "Adults: 25-50 mg every 4-6 hours as needed for allergies. 25-50 mg at bedtime for insomnia."
+  },
+  {
+    "name": "Hydrochlorothiazide",
+    "usage": "High blood pressure, fluid retention (diuretic)",
+    "side_effects": "Dizziness, frequent urination, muscle cramps, low potassium",
+    "dosage": "Adults: 12.5-50 mg once daily."
+  },
+  {
+    "name": "Furosemide",
+    "usage": "Fluid retention (edema) due to heart failure, liver disease, or kidney disease",
+    "side_effects": "Dizziness, frequent urination, muscle cramps, low potassium, dehydration",
+    "dosage": "Adults: 20-80 mg once or twice daily."
+  },
+  {
+    "name": "Citalopram",
+    "usage": "Depression, anxiety",
+    "side_effects": "Nausea, insomnia, fatigue, dizziness, sexual dysfunction, QT prolongation",
+    "dosage": "Adults: Start with 10-20 mg once daily, may increase up to 40 mg daily."
+  },
+  {
+    "name": "Fluoxetine",
+    "usage": "Depression, OCD, bulimia, panic disorder",
+    "side_effects": "Nausea, insomnia, headache, nervousness, sexual dysfunction",
+    "dosage": "Adults: Start with 10-20 mg once daily, may increase."
+  },
+  {
+    "name": "Venlafaxine",
+    "usage": "Depression, anxiety, panic disorder",
+    "side_effects": "Nausea, insomnia, dry mouth, dizziness, increased blood pressure, sweating",
+    "dosage": "Adults: Start with 37.5-75 mg once or twice daily, may increase."
+  },
+  {
+    "name": "Duloxetine",
+    "usage": "Depression, anxiety, nerve pain (neuropathy), fibromyalgia",
+    "side_effects": "Nausea, dry mouth, insomnia, dizziness, constipation, increased blood pressure",
+    "dosage": "Adults: Start with 20-30 mg once or twice daily, may increase to 60 mg twice daily."
+  },
+  {
+    "name": "Tramadol",
+    "usage": "Moderate to moderately severe pain",
+    "side_effects": "Nausea, vomiting, constipation, dizziness, drowsiness, seizures (rare)",
+    "dosage": "Adults: 50-100 mg every 4-6 hours as needed for pain; not to exceed 400 mg per day."
+  },
+  {
+    "name": "Oxycodone",
+    "usage": "Moderate to severe pain",
+    "side_effects": "Constipation, nausea, vomiting, drowsiness, dizziness, respiratory depression",
+    "dosage": "Adults: Dosage varies widely based on pain severity and formulation. Typically 5-20 mg every 4-6 hours."
+  },
+  {
+    "name": "Hydrocodone",
+    "usage": "Moderate to severe pain",
+    "side_effects": "Constipation, nausea, vomiting, drowsiness, dizziness, respiratory depression",
+    "dosage": "Adults: Dosage varies widely based on pain severity and formulation. Typically 5-10 mg every 4-6 hours."
+  },
+  {
+    "name": "Ciprofloxacin",
+    "usage": "Bacterial infections (urinary tract, respiratory, skin, bone)",
+    "side_effects": "Nausea, diarrhea, vomiting, headache, dizziness, tendon rupture (rare)",
+    "dosage": "Adults: 250-500 mg every 12 hours or 500-750 mg every 24 hours, depending on infection."
+  },
+  {
+    "name": "Amoxicillin/Clavulanate",
+    "usage": "Bacterial infections (ear, sinus, skin, urinary tract)",
+    "side_effects": "Nausea, vomiting, diarrhea, rash, yeast infections",
+    "dosage": "Adults: 500 mg/125 mg every 8 hours or 875 mg/125 mg every 12 hours."
+  },
+  {
+    "name": "Clarithromycin",
+    "usage": "Bacterial infections (respiratory, skin, H. pylori)",
+    "side_effects": "Nausea, diarrhea, abdominal pain, metallic taste, headache",
+    "dosage": "Adults: 250-500 mg every 12 hours."
+  },
+  {
+    "name": "Mupirocin",
+    "usage": "Topical antibiotic for skin infections (e.g., impetigo)",
+    "side_effects": "Burning, itching, redness at application site",
+    "dosage": "Adults: Apply a small amount to the affected area 2-3 times daily."
+  },
+  {
+    "name": "Lidocaine",
+    "usage": "Local anesthetic, pain relief (topical)",
+    "side_effects": "Skin irritation, numbness, burning at application site. Systemic: dizziness, drowsiness, confusion.",
+    "dosage": "Topical: Varies by product and area. Injectable: Varies by procedure."
+  },
+  {
+    "name": "Hydrocortisone (topical)",
+    "usage": "Skin inflammation, itching, rashes (eczema, psoriasis)",
+    "side_effects": "Skin thinning, stretch marks, burning, itching, dryness",
+    "dosage": "Adults: Apply a thin layer to affected area 1-4 times daily."
+  },
+  {
+    "name": "Salicylic Acid",
+    "usage": "Acne, psoriasis, warts, dandruff (keratolytic)",
+    "side_effects": "Skin irritation, dryness, redness, peeling",
+    "dosage": "Varies by product concentration and form (wash, cream, patch)."
+  },
+  {
+    "name": "Benzocaine",
+    "usage": "Topical anesthetic (sore throat, sunburn, minor cuts)",
+    "side_effects": "Allergic reactions, methemoglobinemia (rare but serious)",
+    "dosage": "Varies by product and application."
+  },
+  {
+    "name": "Dimenhydrinate",
+    "usage": "Motion sickness, nausea, vomiting",
+    "side_effects": "Drowsiness, dizziness, dry mouth, blurred vision",
+    "dosage": "Adults: 50-100 mg every 4-6 hours as needed."
+  },
+  {
+    "name": "Meclizine",
+    "usage": "Motion sickness, vertigo",
+    "side_effects": "Drowsiness, dry mouth, fatigue",
+    "dosage": "Adults: 25-100 mg once daily, usually taken 1 hour before travel."
+  },
+  {
+    "name": "Guaifenesin",
+    "usage": "Expectorant (thins mucus, helps cough up phlegm)",
+    "side_effects": "Nausea, vomiting, dizziness",
+    "dosage": "Adults: 200-400 mg every 4 hours or 600-1200 mg extended-release every 12 hours."
+  },
+  {
+    "name": "Dextromethorphan",
+    "usage": "Cough suppressant",
+    "side_effects": "Dizziness, drowsiness, nausea",
+    "dosage": "Adults: 10-20 mg every 4 hours or 30 mg every 6-8 hours."
+  },
+  {
+    "name": "Pseudoephedrine",
+    "usage": "Nasal decongestant",
+    "side_effects": "Increased heart rate, nervousness, insomnia, high blood pressure",
+    "dosage": "Adults: 30-60 mg every 4-6 hours or 120 mg extended-release every 12 hours."
+  },
+  {
+    "name": "Naproxen",
+    "usage": "Pain relief, fever reduction, inflammation reduction",
+    "side_effects": "Stomach upset, heartburn, dizziness, increased risk of bleeding",
+    "dosage": "Adults: 220-550 mg every 8-12 hours as needed; not to exceed 1375 mg per day."
+  },
+  {
+    "name": "Celecoxib",
+    "usage": "Pain and inflammation from arthritis",
+    "side_effects": "Stomach upset, diarrhea, headache, increased risk of heart attack/stroke",
+    "dosage": "Adults: 100-200 mg once or twice daily."
+  },
+  {
+    "name": "Glipizide",
+    "usage": "Type 2 diabetes",
+    "side_effects": "Low blood sugar (hypoglycemia), nausea, diarrhea, dizziness",
+    "dosage": "Adults: Start with 5 mg once daily, may increase to 10-15 mg daily or 20 mg in divided doses."
+  },
+  {
+    "name": "Pioglitazone",
+    "usage": "Type 2 diabetes",
+    "side_effects": "Weight gain, fluid retention, increased risk of heart failure, liver problems",
+    "dosage": "Adults: 15-45 mg once daily."
+  },
+  {
+    "name": "Insulin (various types)",
+    "usage": "Type 1 and Type 2 diabetes",
+    "side_effects": "Low blood sugar (hypoglycemia), weight gain, injection site reactions",
+    "dosage": "Dosage is highly individualized and based on blood glucose levels, diet, and activity."
+  },
+  {
+    "name": "Glimepiride",
+    "usage": "Type 2 diabetes",
+    "side_effects": "Low blood sugar (hypoglycemia), dizziness, nausea",
+    "dosage": "Adults: Start with 1-2 mg once daily, may increase up to 8 mg once daily."
+  },
+  {
+    "name": "Sitagliptin",
+    "usage": "Type 2 diabetes",
+    "side_effects": "Headache, runny nose, sore throat, stomach upset",
+    "dosage": "Adults: 100 mg once daily."
+  }
+]
